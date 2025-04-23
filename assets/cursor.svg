@@ -1,0 +1,8 @@
+<svg width="32" height="32" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="blur" x="0" y="0" width="150%" height="150%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="4" />
+    </filter>
+  </defs>
+  <circle cx="16" cy="16" r="12" fill="blue" filter="url(#blur)" />
+</svg>

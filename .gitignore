@@ -1,0 +1,13 @@
+.DS_Store
+node_modules/
+yarn-error.log
+dist/
+coverage/
+.vscode/
+.idea/
+*.iml
+*.log
+Icon?
+Icon\r
+*.swp
+*.swo

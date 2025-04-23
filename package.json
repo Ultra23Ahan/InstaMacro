@@ -1,0 +1,23 @@
+{
+  "name": "instamacro",
+  "version": "1.0.0",
+  "main": "purgecss.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "postcss styles.css -o ./dist/temp.css && npx purgecss --config purgecss.config.js --output ./dist && cat ./dist/temp.css > styles.css && rm ./dist/temp.css"
+  },
+  "keywords": [],
+  "author": "Ahan",
+  "license": "ISC",
+  "description": "OIIA",
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3",
+    "postcss-cli": "^11.0.1",
+    "stylelint": "^16.18.0",
+    "stylelint-config-standard": "^38.0.0"
+  },
+  "dependencies": {
+    "purgecss": "^7.0.2"
+  }
+}
